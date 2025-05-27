@@ -1,0 +1,124 @@
+.calendar-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.calendar-header button {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  margin: 0 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.calendar-header button:hover {
+  background: #0056b3;
+}
+
+.day-cell {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 4px;
+}
+
+.day-cell:hover {
+  background: #e9f5ff;
+}
+
+.day-cell.today {
+  background: #d1e7dd !important;
+  border: 2px solid #0f5132;
+  font-weight: bold;
+}
+
+.event-badge {
+  background-color: #0d6efd;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.calendar-day:hover {
+  box-shadow: 0 0 10px #0d6efd33;
+  background: #f0f8ff !important;
+  z-index: 2;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.calendar-day:hover {
+  box-shadow: 0 0 10px #0d6efd33;
+  background: #f0f8ff !important;
+  z-index: 2;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.calendar-day:hover {
+  box-shadow: 0 0 10px #0d6efd33;
+  background: #f0f8ff !important;
+  z-index: 2;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.calendar-day:hover {
+  box-shadow: 0 0 10px #0d6efd33;
+  background: #f0f8ff !important;
+  z-index: 2;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.calendar-day:hover {
+  box-shadow: 0 0 10px #0d6efd33;
+  background: #f0f8ff !important;
+  z-index: 2;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.calendar-day:hover {
+  box-shadow: 0 0 10px #0d6efd33;
+  background: #f0f8ff !important;
+  z-index: 2;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.calendar-day:hover {
+  box-shadow: 0 0 10px #0d6efd33;
+  background: #f0f8ff !important;
+  z-index: 2;
+}
+.calendar-day {
+  transition: box-shadow 0.2s, background 0.2s;
+}
